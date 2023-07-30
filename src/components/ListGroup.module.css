@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Instrument+Sans:wght@500&family=Raleway:wght@500;600&family=Unbounded:wght@600&display=swap');
+.image{
+    background-image: url('../assets/genshin-1.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 668px;
+    height: 1017px;
+    flex-shrink: 0;
+    margin-top: -11%;
+    margin-left: 15%;
+}
+.logo{
+    background-image: url('../assets/logo.png');
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    margin-top: 30%;
+}
+.introduction p{
+    color: #ffff;
+    line-height: 2.5vw;
+    margin-top: 10%;
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+.button {
+    font-family: 'Raleway', sans-serif;
+    margin-left: 30%;
+}

@@ -6,10 +6,10 @@ function App() {
 // JSX; Javascript XML
 return <div className={AppCss.motherSection}>
     <div className="row">
-        <div className="col">
+        {/* <div className="col">
         <div className={AppCss.childSection}><HeroSectionMessage/></div>
-        </div>
-        <div className="col-7">
+        </div> */}
+        <div className="col">
         <div className={AppCss.child2Section}><ListGroup /></div>
         </div>
     </div>
