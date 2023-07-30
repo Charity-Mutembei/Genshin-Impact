@@ -4,16 +4,14 @@ import AppCss from  './App.module.css'
 
 function App() {
 // JSX; Javascript XML
-return <div className={AppCss.motherSection}>
-    <div className="row">
-        {/* <div className="col">
+return (
+    <>
+    <div className={AppCss.motherSection}>
         <div className={AppCss.childSection}><HeroSectionMessage/></div>
-        </div> */}
-        <div className="col">
         <div className={AppCss.child2Section}><ListGroup /></div>
-        </div>
     </div>
-    </div>;
+    </>
+);
 }
 
 export default App;
